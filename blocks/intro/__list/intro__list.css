@@ -3,10 +3,16 @@
   list-style-type: none;
   max-width: 690px;
   min-height: 90px;
-  font-family: "Inter";
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
   margin: 33px 0 92px;
+}
+
+@media (max-width: 700px) {
+  .intro__list {
+    margin: 33px 0 64px;
+  }
 }
