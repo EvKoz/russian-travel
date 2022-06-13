@@ -1,23 +1,21 @@
 .place {
   margin: 0 auto 80px;
   display: grid;
-  max-width: 984px;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(auto-fit, minmax(310px, 460px));
+  /*grid-template-rows: repeat(auto-fit, auto);*/
   gap: 48px 40px;
 }
 
 .place:nth-of-type(1) {
-  margin: 92px auto 80px;
+  margin: 92px auto 80px; /*не понял комментария*/
 }
 
 .place:nth-of-type(5) {
-  margin: 0 auto 92px;
+  margin: 0 auto 92px; /*не понял комментария*/
 }
 
 @media (max-width: 1200px) {
   .place {
-    max-width: 928px;
     gap: 48px 32px;
     grid-template-columns: 440px 1fr;
   }
@@ -25,7 +23,6 @@
 
 @media (max-width: 1000px) {
   .place {
-    max-width: 720px;
     gap: 48px 28px;
     grid-template-columns: 340px 1fr;
   }

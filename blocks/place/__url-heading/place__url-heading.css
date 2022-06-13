@@ -1,6 +1,6 @@
-.place__prefix {
+.place__url-heading {
   text-transform: uppercase;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 700px) {
-  .place__prefix {
+  .place__url-heading {
     margin-top: 0;
   }
 }
