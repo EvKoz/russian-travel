@@ -8,6 +8,12 @@
 
 @media (max-width: 1000px) {
   .place__text {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .place__text {
     font-size: 16px;
     line-height: 163%;
   }
