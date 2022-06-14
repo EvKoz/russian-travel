@@ -13,14 +13,14 @@
 
 @media (max-width: 1000px) {
   .lead__figure {
-    width: 751px;
+    width: 768px;
     height: 480px;
   }
 }
 
 @media (max-width: 767px) {
   .lead__figure {
-    width: 303px;
+    width: 320px;
     height: 200px;
   }
 }
